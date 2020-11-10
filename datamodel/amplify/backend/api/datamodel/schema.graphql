@@ -1,0 +1,18 @@
+type Course @model {
+  id: ID!
+  name: String
+  subjects: [Subject] @connection(name: "CourseSubject")
+}
+
+type Subject @model {
+  id: ID!
+  name: String
+  course: Course @connection(name: "CourseSubject")
+  levels: [Level] @connection(name: "SubjectLevel")
+}
+
+type Level @model {
+  id: ID!
+  name: String
+  subject: Subject @connection(name: "SubjectLevel")
+}

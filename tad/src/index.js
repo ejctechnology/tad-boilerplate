@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./Components/Routers/index";
+import App from "./Pages/Routers/index";
+import Amplify from "aws-amplify";
+import awsconfig from "./aws-exports";
+Amplify.configure(awsconfig);
 
 ReactDOM.render(
   <React.StrictMode>

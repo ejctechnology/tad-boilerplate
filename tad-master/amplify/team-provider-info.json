@@ -1,0 +1,15 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-tad-dev-224354-authRole",
+            "UnauthRoleArn": "arn:aws:iam::648766712947:role/amplify-tad-dev-224354-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::648766712947:role/amplify-tad-dev-224354-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-tad-dev-224354-deployment",
+            "UnauthRoleName": "amplify-tad-dev-224354-unauthRole",
+            "StackName": "amplify-tad-dev-224354",
+            "StackId": "arn:aws:cloudformation:us-east-2:648766712947:stack/amplify-tad-dev-224354/15fa7220-d113-11ea-8239-0a9bb1cea78e",
+            "AmplifyAppId": "dm7kgg5hmrwp0"
+        }
+    }
+}

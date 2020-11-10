@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-takeanydoubt-dev-51727-authRole",
+      "UnauthRoleArn": "arn:aws:iam::648766712947:role/amplify-takeanydoubt-dev-51727-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::648766712947:role/amplify-takeanydoubt-dev-51727-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-takeanydoubt-dev-51727-deployment",
+      "UnauthRoleName": "amplify-takeanydoubt-dev-51727-unauthRole",
+      "StackName": "amplify-takeanydoubt-dev-51727",
+      "StackId": "arn:aws:cloudformation:us-east-1:648766712947:stack/amplify-takeanydoubt-dev-51727/7da1d3e0-fe14-11ea-bc8a-0e880f83ff7f",
+      "AmplifyAppId": "dslkxb910g8qn"
+    },
+    "categories": {
+      "auth": {
+        "takeanydoubt4f370ecd": {}
+      }
+    }
+  }
+}
